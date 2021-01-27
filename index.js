@@ -33,3 +33,11 @@ function getAvrValue() {
 };
 
 console.log(getAvrValue());
+
+//Выведите на экран случайное целое число от 1 до 100.
+
+function getRandomNum() {
+	return Math.ceil(Math.random() * 100);
+  }
+  
+  console.log(getRandomNum());
