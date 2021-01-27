@@ -64,16 +64,12 @@ const arr3 = arr1.concat(arr2);
 
 console.log(arr3);
 
-
-
 //2. Дан массив [1, 2, 3]. Сделайте из него массив [3, 2, 1].
 
 const array4 = [1, 2, 3];
 const reversArray = array4.reverse();
 
 console.log(reversArray);
-
-
 
 //3. Дан массив [1, 2, 3]. Добавьте ему в конец элементы 4, 5, 6.
 
@@ -83,16 +79,12 @@ Array.prototype.push.apply(array5, array6);
 
 console.log(array5);
 
-
-
 //4. Дан массив [1, 2, 3]. Добавьте ему в начало элементы 4, 5, 6.
 
 const array7 = [1, 2, 3];
 array5.unshift(4, 5, 6)
 
 console.log(array7);
-
-
 
 //5. Дан массив ['js', 'css', 'jq']. Выведите на экран первый элемент и удалите его.
 
@@ -101,16 +93,12 @@ const array8 = ['js', 'css', 'jq'];
 console.log(array8.shift());
 console.log(array8);
 
-
-
 //6. Дан массив ['js', 'css', 'jq']. Выведите на экран последний элемент.
 
 const array9 = ['js', 'css', 'jq'];
 
 console.log(array9.pop());
 console.log(array9);
-
-
 
 //7. Дан массив [1, 2, 3, 4, 5]. С помощью метода slice запишите в новый элементы [1, 2, 3].
 
@@ -119,16 +107,12 @@ const array11 = array10.slice(0, 3);
 
 console.log(array11);
 
-
-
 //8. Дан массив [1, 2, 3, 4, 5]. С помощью метода slice запишите в новый элементы [4, 5].
 
 const array12 = [1, 2, 3, 4, 5];
 const array13 = array12.slice(3);
 
 console.log(array13);
-
-
 
 //9. Дан массив [1, 2, 3, 4, 5]. С помощью метода splice преобразуйте массив в [1, 4, 5].
 
@@ -137,8 +121,6 @@ const array15 = array14.splice(1, 2);
 
 console.log(array14);
 
-
-
 //10. Дан массив [1, 2, 3, 4, 5]. С помощью метода splice запишите в новый массив элементы [2, 3, 4].
 
 const array16 = [1, 2, 3, 4, 5];
@@ -146,16 +128,12 @@ const array17 = array16.splice(1, 3);
 
 console.log(array17);
 
-
-
 //11. Дан массив [1, 2, 3, 4, 5]. С помощью метода splice сделайте из него массив [1, 2, 3, 'a', 'b', 'c', 4, 5].
 
 const array18 = [1, 2, 3, 4, 5];
 const array19 = array18.splice(3, 0, 'a', 'b', 'c');
 
 console.log(array18);
-
-
 
 //12. Дан массив [1, 2, 3, 4, 5]. С помощью метода splice сделайте из него массив [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'].
 
@@ -166,16 +144,12 @@ const array23 = array20.splice(8, 0, 'e');
 
 console.log(array20);
 
-
-
 //13. Дан массив [3, 4, 1, 2, 7]. Отсортируйте его.
 
 const array24 = [3, 4, 1, 2, 7];
 const array25 = array24.sort();
 
 console.log(array25);
-
-
 
 //14. Дан объект {js:'test', jq: 'hello', css: 'world'}. Получите массив его ключей.
 
@@ -187,8 +161,6 @@ const object = {
 const objectKeysArr = Object.keys(object);
 
 console.log(objectKeysArr);
-
-
 
 //1. необходимо создать функцию hasElem, которая параметрами будет принимать массив и строку, 
 //и возвращать true, если строка есть в массиве, и false - если нет
@@ -204,14 +176,10 @@ function hasElem(array01, str01) {
 
 console.log(hasElem([0, 9, 87], '9'));
 
-
-
 //2. Дан массив с числами. Проверьте, что в этом массиве есть указанное число. 
 //Если есть - вернуть true, а если нет - вернуть false.
 
 console.log(hasElem([0, 9, 87], 9));
-
-
 
 //3. Дан массив с числами. Проверьте, есть ли в нем два одинаковых числа подряд. 
 //Если есть -  вернуть true, а если нет - вернуть false.
