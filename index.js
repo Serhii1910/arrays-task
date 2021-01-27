@@ -41,3 +41,17 @@ function getRandomNum() {
   }
   
   console.log(getRandomNum());
+
+  //Заполните массив 10-ю случайными целыми числами. 
+
+function randomNumArr() {
+	const randomArr = [];
+	let maxLimit = 100;
+	let minLimit = -100;
+	for (let i = 0; i < 10; i++) {
+	  randomArr[i] = Math.floor(Math.random() * (maxLimit - minLimit + 1) + minLimit);
+	}
+	return randomArr;
+  }
+  
+  console.log(randomNumArr());
