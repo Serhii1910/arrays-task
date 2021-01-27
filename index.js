@@ -18,3 +18,18 @@ function findMinMaxValue () {
 	return [minVal, maxVal];
 }
 console.log(findMinMaxValue());
+
+//Дан массив arr. Найдите среднее арифметическое его элементов. 
+//Проверьте задачу на массиве с элементами 12, 15, 20, 25, 59, 79.
+
+const array2 = [12, 15, 20, 25, 59, 79];
+
+function getAvrValue() {
+  let sum = 0;
+  for (let i = 0; i < array2.length; i++) {
+    sum += array2[i];
+  };
+  return sum / array2.length;
+};
+
+console.log(getAvrValue());
